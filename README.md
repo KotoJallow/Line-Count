@@ -2,16 +2,18 @@
 A C program to find number of the lines in a FILE
 
 
-Enjoy!!!
 
-Suggestions comments and critisms are welcomed.
 
-kotojalloh.kj@gmail.com
+  Enjoy!!!
 
-Istanbul Sabahattin Zaim University
+  Suggestions comments and critisms are welcomed.
 
-Software Engineering
+  kotojalloh.kj@gmail.com
 
-Class 2
+  Istanbul Sabahattin Zaim University
 
-Istanbul,Turkey.
+  Software Engineering
+
+  Class 2
+
+  Istanbul,Turkey.
