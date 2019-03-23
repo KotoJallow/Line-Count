@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(int argc,char **argv){
+void lineCount(int argc,char **argv){
 	if(argc < 2){
 		fprintf(stderr,"File required");
-		return -1;
+		return;
 	}
 	FILE *fp = fopen(argv[1],"r");
 	
 	if(!fp){
 		fprintf(stderr,"Error in opening file");
-		return -1;      
+		return ;      
 	}
 	
 	int count = 1; //if a file open ,be it empty, it has atleast a newline char
@@ -21,4 +21,9 @@ int main(int argc,char **argv){
 	}
 
 	fprintf(stdout,"File has %d lines\n",count);
+}
+
+int main(int argc,char **argv){
+	lineCount(argc,argv);
+	return 0;
 }
